@@ -1,11 +1,12 @@
 /**
  * fetchModel - Fetch a model from the web server.
  *
- * @param {string} url      
- * @returns {Promise}       
+ * @param {string} url
+ * @returns {Promise}
  */
 function fetchModel(url) {
-  return fetch(url)
+  const ENDPOINT = "https://k8zzvn-3000.csb.app";
+  return fetch(ENDPOINT + url)
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -14,7 +15,7 @@ function fetchModel(url) {
     })
     .catch((error) => {
       console.error("Lỗi khi lấy dữ liệu từ:", url, error);
-      throw error; 
+      throw error;
     });
 }
 
