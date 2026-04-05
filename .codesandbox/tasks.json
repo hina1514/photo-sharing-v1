@@ -12,7 +12,7 @@
   "tasks": {
     "start-backend": {
       "name": "Chạy Backend",
-      "command": "cd be && node src/server.js",
+      "command": "cd be/src && node server.js",
       "runAtStart": true,
       "preview": {
         "port": 3001 
