@@ -1,15 +1,4 @@
 {
-  "$schema": "https://codesandbox.io/schemas/tasks.json",
-  "setupTasks": [
-    {
-      "name": "Cài đặt thư viện Backend",
-      "command": "cd be && npm install"
-    },
-    {
-      "name": "Cài đặt thư viện Frontend",
-      "command": "cd fe/photo-sharing-v1 && npm install"
-    }
-  ],
   "tasks": {
     "start-backend": {
       "name": "Chạy Backend",
