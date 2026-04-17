@@ -5,7 +5,7 @@
  * @returns {Promise}
  */
 function fetchModel(url) {
-  const ENDPOINT = "https://k8zzvn-3001.csb.app";
+  const ENDPOINT = "https://jnspzn-3000.csb.app/";
   return fetch(ENDPOINT + url)
     .then((response) => {
       if (!response.ok) {

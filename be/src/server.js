@@ -6,6 +6,6 @@ const app = createApp();
 
 app.listen(PORT, () => {
   // eslint-disable-next-line no-console
-  console.log(`PhotoShare backend listening on https://k8zzvn-${PORT}.csb.app`);
+  console.log(`PhotoShare backend listening on https://jnspzn-${PORT}.csb.app`);
 });
 // https://k8zzvn-3000.csb.app
