@@ -1,9 +1,8 @@
 {
-    [{
+  "setupTasks": {
       "command": "cd fe/photo-sharing-v1 && npm install",
       "name": "Cài đặt thư viện Frontend"
-    }
-  ],
+    },
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
